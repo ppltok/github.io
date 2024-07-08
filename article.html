@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivido.vip - {{ARTICLE_TITLE}}</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Vivido.vip</a>
+        <nav>
+           <a href="index.html" class="nav-link button">Explore more</a>
+        </nav>
+    </header>
+    <div class="page-container">
+        <aside class="ad-sidebar left-sidebar">
+            <!-- Left Ad Block -->
+            <div class="ad-block">
+                <!-- Insert your AdSense code here -->
+            </div>
+        </aside>
+    <main>
+        <section class="hero">
+            <h1>{{ARTICLE_TITLE}}</h1>
+        </section>
+        <p class="hero-description">{{ARTICLE_DESCRIPTION}}</p>
+        <section class="related-searches">
+            <h2>Related Searches</h2>
+        </section>
+        <button id="readMoreBtn">Read More</button>
+        <div id="extendedArticle" style="display: none;">
+            {{FULL_ARTICLE_CONTENT}}
+        </div>
+    </main>
+    <aside class="ad-sidebar right-sidebar">
+        <!-- Right Ad Block -->
+        <div class="ad-block">
+            <!-- Insert your AdSense code here -->
+        </div>
+    </aside>
+</div>
+    <footer>
+        <p>&copy; 2024 Vivido.vip. All rights reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+<script src="article-script.js"></script>
+</body>
+</html>
